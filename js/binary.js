@@ -11719,86 +11719,86 @@ var Header = function () {
   };
   var bindSvg = function bindSvg() {
     applyToAllElements('#add-account-icon', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-add-account.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-add-account.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#appstore-icon', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-appstore-home.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-appstore-home.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.header__expand', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-down.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-down.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     // TODO : Change to light arrow down icon
     applyToAllElements('.header__expand-light', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-down.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-down.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.header__logo', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path).concat(getPlatformSettings('smarttrader').icon, "?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path).concat(getPlatformSettings('smarttrader').icon, "?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.logout-icon', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-logout.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-logout.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.reports-icon', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-reports.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-reports.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.whatsapp-icon', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-whatsapp.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-whatsapp.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.livechat-icon', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-livechat.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-livechat.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.btn__close', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-close.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-close.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#header__notification-icon', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-bell.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-bell.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#header__notification-empty-img', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-box.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-box.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#header__account-settings', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-user-outline.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-user-outline.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#header__hamburger', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-hamburger.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-hamburger.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.wallet-apps-logo', function (el) {
-      el.src = Url.urlForStatic("".concat(wallet_header_icon_base_path, "wallet-apps-logo.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(wallet_header_icon_base_path, "wallet-apps-logo.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.deriv-com-logo', function (el) {
-      el.src = Url.urlForStatic("".concat(wallet_header_icon_base_path, "wallet-deriv-logo.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(wallet_header_icon_base_path, "wallet-deriv-logo.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('.deriv-com-logo-mobile', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "deriv-com-logo.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "deriv-com-logo.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__platform-switcher-icon-trade', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-trade.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-trade.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#cashier-icon', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-cashier.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-cashier.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__platform-switcher-icon-arrowright', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-right.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-right.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__menu-content-submenu-icon-back', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-left.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-left.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__menu-content-submenu-cashier-icon-back', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-left.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-left.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__menu-content-submenu-account-settings-icon-back', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-left.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-left.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__menu-content-submenu-language-icon-back', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-left.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-chevron-left.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__menu-content-submenu-icon-open', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-portfolio.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-portfolio.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__menu-content-submenu-icon-profit', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-profit-table.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-profit-table.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
     applyToAllElements('#mobile__menu-content-submenu-icon-statement', function (el) {
-      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-statement.svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      el.src = Url.urlForStatic("".concat(header_icon_base_path, "ic-statement.svg?").concat("a117192bc0e1075ca034575c630882dc"));
     });
   };
   var bindPlatform = function bindPlatform() {
@@ -11893,7 +11893,7 @@ var Header = function () {
         'data-platform-key': key // Store platform key for dynamic URL generation
       });
       var platform_icon = createElement('img', {
-        src: "".concat(Url.urlForStatic("".concat(header_icon_base_path).concat(platform.icon, "?").concat("9f9d083a513110fb7e35a8ebc475990b"))),
+        src: "".concat(Url.urlForStatic("".concat(header_icon_base_path).concat(platform.icon, "?").concat("a117192bc0e1075ca034575c630882dc"))),
         class: 'platform__list-item-icon'
       });
       var platform_text_container = createElement('div', {
@@ -12101,7 +12101,7 @@ var Header = function () {
     })));
 
     // Mobile Menu Livechat Icon
-    mobile_menu__livechat_logo.src = Url.urlForStatic("images/common/livechat.svg?".concat("9f9d083a513110fb7e35a8ebc475990b"));
+    mobile_menu__livechat_logo.src = Url.urlForStatic("images/common/livechat.svg?".concat("a117192bc0e1075ca034575c630882dc"));
 
     // Notification Event
     var notification_bell = getElementById('header__notification-icon-container');
@@ -12451,7 +12451,7 @@ var Header = function () {
       var flagImg = getElementById('mobile__menu-language-flag');
       var langText = getElementById('mobile__menu-language-text');
       if (flagImg && langText) {
-        flagImg.src = Url.urlForStatic("images/languages/ic-flag-".concat(currentLanguage.toLowerCase(), ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+        flagImg.src = Url.urlForStatic("images/languages/ic-flag-".concat(currentLanguage.toLowerCase(), ".svg?").concat("a117192bc0e1075ca034575c630882dc"));
         langText.textContent = currentLanguage.toUpperCase();
       }
       applyToAllElements('.mobile__language-item', function (el) {
@@ -12497,7 +12497,7 @@ var Header = function () {
 
     // Livechat Logo
     var livechat_img = getElementById('livechat__logo');
-    livechat_img.src = Url.urlForStatic("images/common/livechat.svg?".concat("9f9d083a513110fb7e35a8ebc475990b"));
+    livechat_img.src = Url.urlForStatic("images/common/livechat.svg?".concat("a117192bc0e1075ca034575c630882dc"));
 
     // Livechat Launcher
     var livechat = getElementById('livechat');
@@ -12520,7 +12520,7 @@ var Header = function () {
       return !/ACH/.test(language[0]);
     });
     var el_language_select_img = getElementById('language-select__logo');
-    el_language_select_img.src = Url.urlForStatic("images/languages/ic-flag-".concat(current_language.toLowerCase(), ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+    el_language_select_img.src = Url.urlForStatic("images/languages/ic-flag-".concat(current_language.toLowerCase(), ".svg?").concat("a117192bc0e1075ca034575c630882dc"));
     getElementById('language-select').addEventListener('click', toggleLanguagePopup);
     var el_language_menu_modal = getElementById('language-menu-modal');
     el_language_menu_modal.addEventListener('click', function (e) {
@@ -12534,7 +12534,7 @@ var Header = function () {
         id: language[0]
       });
       language_menu_item.appendChild(createElement('img', {
-        src: Url.urlForStatic("images/languages/ic-flag-".concat(language[0].toLowerCase(), ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"))
+        src: Url.urlForStatic("images/languages/ic-flag-".concat(language[0].toLowerCase(), ".svg?").concat("a117192bc0e1075ca034575c630882dc"))
       }));
       language_menu_item.appendChild(createElement('span', {
         text: language[1]
@@ -12741,8 +12741,8 @@ var Header = function () {
         if (is_real) return wallet_currency ? wallet_currency.toLowerCase() : 'unknown';
         return 'virtual';
       };
-      var icon = Url.urlForStatic("".concat(wallet_header_icon_base_path, "ic-wallets-currency-").concat(getIcon(), ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
-      var combined_icon = Url.urlForStatic("".concat(wallet_header_icon_base_path, "ic-wallets-combined-").concat(getIcon(), ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      var icon = Url.urlForStatic("".concat(wallet_header_icon_base_path, "ic-wallets-currency-").concat(getIcon(), ".svg?").concat("a117192bc0e1075ca034575c630882dc"));
+      var combined_icon = Url.urlForStatic("".concat(wallet_header_icon_base_path, "ic-wallets-combined-").concat(getIcon(), ".svg?").concat("a117192bc0e1075ca034575c630882dc"));
 
       // Update currency icons for both desktop and mobile
       applyToAllElements('#header__acc-icon--currency', function (el) {
@@ -12799,8 +12799,8 @@ var Header = function () {
             if (is_real) return currency ? currency.toLowerCase() : 'unknown';
             return 'virtual';
           };
-          var icon = Url.urlForStatic("".concat(wallet_header_icon_base_path, "ic-wallets-currency-").concat(getIcon(), ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
-          var combined_icon = Url.urlForStatic("".concat(wallet_header_icon_base_path, "ic-wallets-combined-").concat(getIcon(), ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+          var icon = Url.urlForStatic("".concat(wallet_header_icon_base_path, "ic-wallets-currency-").concat(getIcon(), ".svg?").concat("a117192bc0e1075ca034575c630882dc"));
+          var combined_icon = Url.urlForStatic("".concat(wallet_header_icon_base_path, "ic-wallets-combined-").concat(getIcon(), ".svg?").concat("a117192bc0e1075ca034575c630882dc"));
           if (is_current) {
             // Update currency icons for current wallet account
             applyToAllElements('#header__acc-icon--currency', function (el) {
@@ -12986,7 +12986,7 @@ var Header = function () {
             if (is_real) return currency ? currency.toLowerCase() : 'unknown';
             return 'virtual';
           };
-          var icon = Url.urlForStatic("".concat(header_icon_base_path, "ic-currency-").concat(getIcon(), ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+          var icon = Url.urlForStatic("".concat(header_icon_base_path, "ic-currency-").concat(getIcon(), ".svg?").concat("a117192bc0e1075ca034575c630882dc"));
           var current_active_login = Client.get('loginid');
           var is_current = loginid === current_active_login;
           if (is_current) {
@@ -13386,7 +13386,7 @@ var Header = function () {
       'notification-key': key
     });
     var notification_icon = createElement('img', {
-      src: Url.urlForStatic("".concat(header_icon_base_path, "ic-alert-").concat(type || 'info', ".svg?").concat("9f9d083a513110fb7e35a8ebc475990b"))
+      src: Url.urlForStatic("".concat(header_icon_base_path, "ic-alert-").concat(type || 'info', ".svg?").concat("a117192bc0e1075ca034575c630882dc"))
     });
     var notification_message = createElement('div', {
       class: 'header__notification-content-message'
@@ -14389,11 +14389,10 @@ var Page = function () {
       console.log('Page loaded by document ready');
       init();
 
-      // if the user has logged in previously, silent login
-      // skip SSO/SLO on login pages to avoid CORS errors from OIDC session checks
-      if (!isLoginPages()) {
+      // OIDC SSO/SLO only runs on official Deriv staging/production domains
+      var is_deriv_domain = /^(staging-smarttrader\.deriv\.com|smarttrader\.deriv\.com|smarttrader\.deriv\.me|smarttrader\.deriv\.be|staging-smarttrader\.deriv\.be)$/i.test(window.location.hostname);
+      if (!isLoginPages() && is_deriv_domain) {
         requestSingleSignOn();
-        // if the user has logged out previously, silent logout
         requestSingleLogout(Client.sendLogoutRequest);
       }
       // eslint-disable-next-line no-console
@@ -16773,10 +16772,10 @@ var Validation = function () {
       var el_password_icon = field.$.siblings('#password_toggle').find('#password_toggle_icon');
       if (field.$.attr('type') === 'text') {
         field.$.attr('type', 'password');
-        el_password_icon.attr('src', urlFor("images/common/password_hide.svg?".concat("9f9d083a513110fb7e35a8ebc475990b")));
+        el_password_icon.attr('src', urlFor("images/common/password_hide.svg?".concat("a117192bc0e1075ca034575c630882dc")));
       } else if (field.$.attr('type') === 'password') {
         field.$.attr('type', 'text');
-        el_password_icon.attr('src', urlFor("images/common/password_show.svg?".concat("9f9d083a513110fb7e35a8ebc475990b")));
+        el_password_icon.attr('src', urlFor("images/common/password_show.svg?".concat("a117192bc0e1075ca034575c630882dc")));
       }
     };
 
@@ -19111,13 +19110,13 @@ var Explanation = function Explanation(_ref) {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
       id: "explanation_image_1",
       className: "responsive",
-      src: "".concat(image_path).concat(images[form_name].image1, "?").concat("9f9d083a513110fb7e35a8ebc475990b")
+      src: "".concat(image_path).concat(images[form_name].image1, "?").concat("a117192bc0e1075ca034575c630882dc")
     })), images[form_name].image2 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       className: "gr-4 gr-12-m padding-left"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
       id: "explanation_image_2",
       className: "responsive",
-      src: "".concat(image_path).concat(images[form_name].image2, "?").concat("9f9d083a513110fb7e35a8ebc475990b")
+      src: "".concat(image_path).concat(images[form_name].image2, "?").concat("a117192bc0e1075ca034575c630882dc")
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       className: "gr-2 hide-mobile"
     })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -21070,9 +21069,9 @@ var TradingAnalysis = function () {
     };
     if (images[form_name]) {
       var image_path = Url.urlForStatic("images/pages/trade-explanation/".concat(getLanguage().toLowerCase(), "/"));
-      $container.find('#explanation_image_1').attr('src', "".concat(image_path).concat(images[form_name].image1, "?").concat("9f9d083a513110fb7e35a8ebc475990b"));
+      $container.find('#explanation_image_1').attr('src', "".concat(image_path).concat(images[form_name].image1, "?").concat("a117192bc0e1075ca034575c630882dc"));
       if (images[form_name].image2) {
-        $container.find('#explanation_image_2').attr('src', "".concat(image_path).concat(images[form_name].image2, "?").concat("9f9d083a513110fb7e35a8ebc475990b")).parent().setVisibility(1);
+        $container.find('#explanation_image_2').attr('src', "".concat(image_path).concat(images[form_name].image2, "?").concat("a117192bc0e1075ca034575c630882dc")).parent().setVisibility(1);
       } else {
         $container.find('#explanation_image_2').parent().setVisibility(0);
       }
