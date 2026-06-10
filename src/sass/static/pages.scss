@@ -1,0 +1,299 @@
+// styling for static pages that are too short or simple to need their own styling page
+
+.box-row {
+    border-bottom: 1px solid $COLOR_GRAY;
+
+    &__box {
+        padding: 2rem;
+    }
+    &__box:not(:last-child) {
+        border-right: 1px solid $COLOR_GRAY;
+    }
+    &__img {
+        height: 50px;
+    }
+    &--top {
+        &__box {
+            padding-top: 1rem;
+        }
+    }
+    &--bottom {
+        border: none;
+
+        &__box {
+            padding-bottom: 0;
+        }
+    }
+    &--no-border, &--no-border &__box {
+        border: none;
+    }
+    @media screen and (max-width: 480px) {
+        &, &__box {
+            border: none;
+        }
+    }
+}
+
+.steps {
+    @media (max-width: 480px) {
+        flex-direction: column;
+
+        .step:not(:first-child) {
+            margin-top: 2rem;
+        }
+    }
+}
+
+.box-inlay-borders {
+    .border-right-top {
+        min-height: 200px;
+    }
+    .border-right-bottom {
+        min-height: 300px;
+    }
+    .border-right-top, .border-right-bottom {
+        @include BIDIR_PROP(border-right, border-left, 1px solid $COLOR_GRAY);
+    }
+    @media screen and (max-width: 480px) {
+        .border-bottom, .border-right-top, .border-right-bottom {
+            border: none;
+        }
+    }
+}
+
+.box-overlay-image {
+    margin-bottom: 2rem;
+
+    .box-wrapper {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+
+        &.right {
+            flex-direction: row-reverse;
+
+            .box-content {
+                left: 25%;
+            }
+        }
+        .box-img {
+            width: 60%;
+        }
+        .box-content {
+            padding: 1rem 0;
+            border: 1px solid $COLOR_GRAY;
+            width: 300px;
+            background: $COLOR_WHITE;
+            left: 45%;
+            position: absolute;
+
+            h4 {
+                text-align: left;
+                margin: 0 1rem;
+            }
+            .box-headerline {
+                border-color: $COLOR_ORANGE;
+                border-bottom-width: 2px;
+                margin: 10px 1rem 0;
+                width: 75px;
+            }
+            .box-text {
+                text-align: left;
+                margin: 0.5rem 1rem;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+
+            &.right {
+                flex-direction: column;
+
+                .box-content {
+                    left: unset;
+                }
+            }
+            .box-img {
+                width: 100%;
+            }
+            .box-content {
+                position: relative;
+                width: 100%;
+                left: unset;
+            }
+        }
+    }
+}
+
+.faded {
+    color: $COLOR_GRAY_SHADE;
+    font-size: $FONT_SIZE_N;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+#account_currency {
+    display: flex;
+    align-items: center;
+    background-color: $COLOR_LIGHT_GRAY;
+    padding: 30px;
+    border-radius: 4px;
+
+    &_img {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+        @media screen and (max-width: 500px) {
+            display: none;
+        }
+    }
+    &_current {
+        color: $primaryBrandColor;
+        font-weight: 300;
+    }
+    &_hint {
+        font-size: 1rem;
+        margin: 10px 0 0;
+    }
+}
+
+._elevio_launcher {
+    display: none;
+
+    ._6byvm._zvdyj {
+        bottom: 8px !important;
+        right: 8px !important;
+    }
+}
+
+// override elevio styles for both in page contents and popup
+body #_elev_io {
+    * {
+        font-family: $FONT-STACK;
+    }
+    ._nr4k9 { // suggestion title
+        display: block;
+        margin-bottom: 20px;
+        color: $COLOR_BLUE;
+        font-size: 22px;
+        font-weight: 300;
+    }
+    ._1b4vy:hover { // category titles
+        color: $COLOR_BLUE;
+    }
+    ._elevio_articlelink > div { // links
+        color: $COLOR_BLUE;
+        text-decoration: none;
+        font-weight: 700;
+
+        > div {
+            background: none;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.page_404 .big-error-code {
+    color: $COLOR_GRAY;
+    font-size: 10em;
+}
+
+#pa_list #accordion {
+    table {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        td {
+            padding: 10px 4px;
+
+            &:nth-of-type(1) {
+                width: 40%;
+            }
+        }
+    }
+}
+
+#set_currency {
+    #frm_set_currency {
+        .section-divider {
+            max-width: 500px;
+        }
+    }
+    .currency_list > div {
+        padding: 15px;
+        background-image: url('../images/pages/set_currency/tick-normal.svg');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        line-height: 30px;
+
+        &:hover {
+            cursor: pointer;
+        }
+        &.selected {
+            background-image: url('../images/pages/set_currency/tick-selected.svg');
+        }
+        .currency-name {
+            line-height: 22px;
+            padding: 4px 0;
+        }
+    }
+    .list-style-inside {
+        list-style-position: inside;
+    }
+}
+
+.lightbox #set_currency {
+    padding: 25px;
+    padding-bottom: 4px;
+    width: 40em;
+
+    #set_currency_text {
+        margin-top: 0;
+    }
+    #fiat_currencies, #crypto_currencies {
+        + div {
+            max-width: 30em;
+        }
+    }
+    .section-divider {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #submit_section {
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+}
+
+#client-limits img {
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.select-options {
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    &::-webkit-scrollbar:vertical {
+        width: 11px;
+    }
+    &::-webkit-scrollbar:horizontal {
+        height: 11px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid $COLOR_WHITE; /* should match background, can't be transparent */
+        background-color: $COLOR_LIGHT_GRAY;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: $COLOR_WHITE;
+        border-radius: 8px;
+    }
+}
+
+#self_exclusion_dialog #dialog_content {
+    max-width: 496px;
+}

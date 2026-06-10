@@ -1,0 +1,22 @@
+*~
+.idea/
+.grunt/
+.sass-cache/
+.vscode/
+dist/
+node_modules/
+scripts/CNAME
+.DS_Store
+*.swp
+npm-debug.log
+.vercel
+
+*.env
+.env.*
+# AI Tool Configuration Files
+.cursorrules
+.clinerules
+.roo-config.json
+.chatgpt-instructions.md
+.claude-instructions.md
+.ai-rules.md
